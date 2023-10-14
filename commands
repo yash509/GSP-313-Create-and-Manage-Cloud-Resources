@@ -1,10 +1,10 @@
-Task 1 : Create a project jumphost instance:
+Task 1 :: Create a project jumphost instance:
 
 Please navigate to the compute engine > VM instance & click on create instance. Instance Name: As mentioned in the lab instruction Machine type: N1 (f1-macro) Do not change the other settings just click on the create.
 
 
 
-Task 2 : Create a Kubernetes service cluster:
+Task 2 :: Create a Kubernetes service cluster:
 
 gcloud container clusters create nucleus-backend \
           --num-nodes 1 \
